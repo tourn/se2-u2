@@ -64,7 +64,7 @@ public class PetManagerFrame extends JFrame {
 		try {
 			removeIcon = new ImageIcon(ImageIO.read(this.getClass().getClassLoader().getResource(
 					"img/edit_remove.png")));
-			addIcon = new ImageIcon(ImageIO.read(new File("img/edit_add.png")));
+			addIcon = new ImageIcon(ImageIO.read(this.getClass().getClassLoader().getResource("img/edit_add.png")));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
